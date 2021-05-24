@@ -32,6 +32,7 @@
     height: auto;
     cursor: pointer;
     opacity: 0.8;
+    object-fit: scale-down;
 }
 
 .homepage-logo-container img:hover {
