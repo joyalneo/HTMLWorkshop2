@@ -15,7 +15,7 @@
 .homepage-container {
     width: 100%;
     height: 900px;
-    background: url(/Assets/main\ img-min.jpg);
+    background: url(./Assets/main-img.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     z-index: -1;
@@ -44,7 +44,7 @@
     height: 600px;
     margin-top: 3.93%;
     margin-left: 8.68%;
-    background: url(/Assets/banner-text-bg].svg);
+    background: url(./Assets/banner-text-bg.svg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -268,7 +268,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: url(/Assets/does\ it\ Work\ br.png);
+    background: url(./Assets/does-it-Work-br.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
