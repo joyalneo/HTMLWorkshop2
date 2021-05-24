@@ -29,6 +29,12 @@
 .homepage-logo-container img {
     width: 236px;
     height: auto;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.homepage-logo-container img:hover {
+    opacity: 1;
 }
 
 .homepage-caption-container {
@@ -85,6 +91,12 @@
     font-weight: bold;
     font-size: 18px;
     border: none;
+    border: 1px solid white;
+}
+
+.apply-btn:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
 }
 
 .homepage-caption-container img {
@@ -559,6 +571,7 @@
     width: 100%;
     padding: 0 100px;
     margin-top: 50px;
+    margin-bottom: 30px;
     flex-wrap: wrap;
 }
 
