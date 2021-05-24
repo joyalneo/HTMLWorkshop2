@@ -163,6 +163,7 @@
     flex-direction: row;
     justify-content: flex-between;
     align-items: center;
+    padding-top: 100px;
 }
 
 .details-sub-caption-container {
