@@ -39,36 +39,19 @@
 }
 
 .homepage-caption-container {
-    position: relative;
-    width: 50%;
-    margin-top: 3.93%;
-    margin-left: 8.68%;
-}
-
-.homepage-caption-container div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 40%;
-    margin-left: 20%;
-    gap: 20px;
-    /* padding-left: 100px; */
-}
-
-#blueBackground {
-    position: absolute;
-    width: 90%;
-    height:auto;
-    min-width: 620px;
-    max-width: 710px;
-}
+    /* background-color: aqua; */
+    width: fit-content;
+    background-image: url(./Assets/banner-text-bg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 280px 150px;
+} 
 
 .homepage-caption-container h1 {
     color: #FFFFFF;
     font-family: Helvetica;
     font-size: 5rem;
     letter-spacing: 0.83px;
-    /* line-height: 60px; */
     text-align: left;
     font-weight: bold;
     z-index: 1;
@@ -81,7 +64,6 @@
     font-family: Helvetica;
     font-size: 22px;
     letter-spacing: 0.79px;
-    /* line-height: 30px; */
     text-align: left;
     font-weight: normal;
     z-index: 1;
@@ -115,22 +97,9 @@
     color: white;
 }
 
-.homepage-caption-container img {
-    width: 20px;
-    height: auto;
-}
-
-@media only screen and (max-width:1200px) {
-    .homepage-caption-container div {
-        margin-top: 80%;
-        margin-left: 20%;
-    }
-}
-
 @media only screen and (max-width:850px) {
-    .homepage-caption-container div {
-        margin-top: 50%;
-        margin-left: 0;
+    .homepage-caption-container {
+        padding: 220px 80px;
     }
     
 }
@@ -138,6 +107,7 @@
 @media only screen and (max-width:700px) {
     .homepage-container {
         height: 700px;
+        
     }
     .homepage-logo-container {
         width: 100%;
@@ -159,7 +129,14 @@
         margin-top: 0;
         margin-left: 0;
         width: 100%;
+        padding: 0;
     }
+    .homepage-caption-container div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    } 
     .homepage-caption-container div {
         align-items: center;
         margin-top: 30%;
@@ -170,9 +147,7 @@
         height: 46px;
         font-size: 14px;
     }
-    .homepage-caption-container img {
-        width: 16px;
-    }
+
     .homepage-caption-container h1 {
         font-size: 40px;
         text-align: center;
@@ -194,7 +169,6 @@
 .details-sub-container {
     display: flex;
     flex-direction: row;
-    /* justify-content: flex-between; */
     align-items: center;
     padding-top: 40px;
 }
