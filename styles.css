@@ -41,21 +41,22 @@
 .homepage-caption-container {
     width: fit-content;
     margin-left: 10%;
-    margin-top: 3%;
+    height: 90%;
 }
 
 .homepage-caption-container div {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height: 100%;
     gap: 20px;
     width: fit-content;
-    padding-left: 100px;
-    padding-top: 200px;
+    padding-left: 150px;
 }
 
 #blueBackground {
-    height: 70%;
+    margin-top: 80px;
+    height: 75%;
     width: auto;
     position: absolute;
 }
@@ -125,6 +126,7 @@
     }
     .homepage-caption-container div {
         padding-top: 0;
+        padding-left: 0;
     }
 }
 
