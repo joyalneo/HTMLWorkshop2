@@ -112,9 +112,9 @@
 }
 
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1200px) {
     #blueBackground {
-        width: 90%;
+        width: 80%;
         height: auto;
     }
     .homepage-caption-container {
@@ -123,6 +123,12 @@
     }
     .homepage-caption-container div {
         margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #blueBackground {
+        width: 90%;
     }
 }
 
