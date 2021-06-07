@@ -1,0 +1,18 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 682 682" width="682" height="682">
+	<title>banner-text-bg-svg</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { opacity: 0.902;fill: #0074e4 } 
+		.shp1 { fill: #0074e4 } 
+	</style>
+	<g id="Artboard">
+		<g id="Group">
+			<g id="Group-11" style="opacity: 0.671">
+				<path id="Rectangle-3" fill-rule="evenodd" class="shp0" d="M187.6 91.21C295.7 23.95 691.29 215.37 679.2 284.21C667.1 353.05 617.93 638.78 510.06 647.61C402.18 656.44 149.82 559.76 73.17 465.66C-3.47 371.56 79.5 158.47 187.6 91.21Z" />
+			</g>
+			<g id="Group-11-Copy" style="opacity: 0.902">
+				<path id="Rectangle-3" fill-rule="evenodd" class="shp1" d="M134.35 86.88C239.02 14.1 644.93 184.38 636.43 253.7C627.94 323.03 593.68 610.71 486.18 625.17C378.68 639.63 121.07 556.39 39.44 466.51C-42.2 376.63 29.68 159.66 134.35 86.88Z" />
+			</g>
+		</g>
+	</g>
+</svg>
