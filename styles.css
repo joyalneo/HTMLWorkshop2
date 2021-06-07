@@ -15,6 +15,7 @@
 .homepage-container {
     width: 100%;
     height: 100vh;
+    min-height: 1080px;
     background: url(./Assets/main-img.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -149,12 +150,14 @@
         max-height: 90%;
     }
     .homepage-caption-container {
+        height: 90%;
         align-items: center;
         margin-left: 0;
         background-image: none;
         padding: 0;
         width: 100%;
         margin-top:0;
+        aspect-ratio: auto;
     }
     .homepage-caption-container div {
         margin-left: 0;
@@ -165,6 +168,7 @@
 @media only screen and (max-width: 700px) {
     .homepage-container {
         height: 700px;
+        min-height: 0;
     }
     .homepage-logo-container {
         width: 100%;
